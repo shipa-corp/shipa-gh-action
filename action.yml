@@ -1,5 +1,8 @@
 name: 'Shipa Cloud'
 description: 'Manage cloud-native deployments and policies on Kubernetes using GitHub Actions and Shipa'
+branding:
+  icon: "upload-cloud" 
+  color: "blue"
 inputs:
   shipa-action:
     description: 'File path to Shipa action yml file'
