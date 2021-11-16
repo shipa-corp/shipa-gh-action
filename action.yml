@@ -1,0 +1,11 @@
+name: 'Shipa Cloud'
+description: 'Manage cloud-native deployments and policies on Kubernetes using GitHub Actions and Shipa'
+inputs:
+  shipa-action:
+    description: 'File path to Shipa action yml file'
+    required: true
+runs:
+  using: 'docker'
+  image: 'docker://shipasoftware/shipa-action:0.0.1'
+  args:
+    - --shipa-action=${{ inputs.shipa-action }}
