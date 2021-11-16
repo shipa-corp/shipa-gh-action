@@ -1,6 +1,6 @@
 # Shipa GitHub Action
 
-GitHub Action for managing cloud-native applications on Kubernetes using Shipa
+GitHub Action for managing cloud-native applications and policies on Kubernetes using Shipa
 
 ## Inputs
 
