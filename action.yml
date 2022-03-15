@@ -9,6 +9,6 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'docker://shipasoftware/shipa-action:0.0.1'
+  image: 'docker://shipasoftware/shipa-action:a3419433bc287c4572b248f5afd80a57b1f79a72'
   args:
     - --shipa-action=${{ inputs.shipa-action }}
