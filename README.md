@@ -8,7 +8,7 @@ GitHub Action for managing cloud-native applications and policies on Kubernetes 
 
 ## Compatibility matrix
 
-|                               | shipa < 1.6.3 | shipa >= 1.6.3 | 
+|                               | shipa < 1.6.4 | shipa >= 1.6.4 | 
 |-------------------------------|-----------------|-----------------|
 | `shipa-corp/shipa-gh-action@0.0.1`  | +               | -              |
 | `shipa-corp/shipa-gh-action@0.0.2` | -               | +              |
