@@ -8,7 +8,11 @@ GitHub Action for managing cloud-native applications and policies on Kubernetes 
 
 ## Compatibility matrix
 
-|                               | shipa < 1.6.4 | shipa >= 1.6.4 | 
+For Shipa Cloud the required version is `shipa-corp/shipa-gh-action@0.0.2`
+
+A compatibility matrix for Self-Hosted versions of Shipa:     
+
+| Self-Hosted version of Shipa | shipa < 1.6.4 | shipa >= 1.6.4 | 
 |-------------------------------|-----------------|-----------------|
 | `shipa-corp/shipa-gh-action@0.0.1`  | +               | -              |
 | `shipa-corp/shipa-gh-action@0.0.2` | -               | +              |
